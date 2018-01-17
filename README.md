@@ -1,2 +1,2 @@
 # aml
-A new JS based views library that uses simple, human readable syntax
+A new XML based Language that uses simple, human readable syntax to make Application UI Design simpler.
