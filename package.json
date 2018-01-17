@@ -1,0 +1,26 @@
+{
+  "name": "aml",
+  "version": "0.1.0",
+  "description": "A new JS based views library that uses simple, human readable syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyperCubedSoftware/aml.git"
+  },
+  "keywords": [
+    "views",
+    "react",
+    "vue",
+    "amythest",
+    "hypercubes"
+  ],
+  "author": "HyperCubedSoftware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HyperCubedSoftware/aml/issues"
+  },
+  "homepage": "https://github.com/HyperCubedSoftware/aml#readme"
+}
