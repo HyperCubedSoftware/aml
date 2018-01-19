@@ -1,7 +1,7 @@
 {
-  "name": "aml",
+  "name": "aml-core",
   "version": "0.1.0",
-  "description": "A new JS based views library that uses simple, human readable syntax",
+  "description": "Core component of aml that compiles AML files to HTML",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -22,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/HyperCubedSoftware/aml/issues"
   },
-  "homepage": "https://github.com/HyperCubedSoftware/aml#readme",
-  "devDependencies": {
-    "lerna": "^2.8.0"
-  }
+  "homepage": "https://github.com/HyperCubedSoftware/aml#readme"
 }
