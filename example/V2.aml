@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="V2.acss"?>
+<?xml-stylesheet type="text/css" href="Icons.acss"?>
+<window>
+	<Nav type="sidebar" width="250">
+		<NavTop>
+		<NavPadding />
+			<NavItem URL="/Search"><Icon type="Search" nav="true"/><Text italic="true">Search</Text></NavItem>
+			<NavItem URL="/Store"><Icon type="Store" nav="true"/><Text>Store</Text></NavItem>
+			<NavItem URL="/Library"><Icon type="Library" nav="true"/><Text>Library</Text></NavItem>
+			<NavItem URL="/Community"><Icon type="Community" nav="true"/><Text>Community</Text></NavItem>
+			<NavItem URL="/Mods"><Icon type="CommandPrompt" nav="true"/><Text>Mods</Text></NavItem>
+		</NavTop>
+		<NavBottom>
+			<NavItem URL="/Profile"><Icon type="Profile" nav="true"/>Profile</NavItem>
+			<NavItem URL="/Settings"><Icon type="Settings" nav="true"/>Settings</NavItem>
+		</NavBottom>
+	</Nav>
+	<Content />
+	<Titlebar style="Windows">
+        <!--<TitlebarTitle>AML Window</TitlebarTitle>-->
+        <TitlebarButton><Icon type="Close" /></TitlebarButton>
+        <TitlebarButton><Icon type="Maximize" /></TitlebarButton>
+        <TitlebarButton><Icon type="Minimize" /></TitlebarButton>
+    </Titlebar>
+</window>

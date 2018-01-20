@@ -1,0 +1,71 @@
+/* Window Control Icons */
+
+Icon[type="Close"]::before{
+    content: '\e8bb';
+}
+
+Icon[type="Minimize"]::before{
+    content: '\e921';
+}
+
+Icon[type="Maximize"]::before{
+    content: '\e922';
+}
+
+Icon[type="Restore"]::before{
+    content: '\e923';
+}
+
+Icon[type="GlobalNav"]::before{
+    content: '\e700';
+}
+
+/* General Purpose Icons */
+
+Icon[type="Code"]::before{
+    content: '\e943'
+}
+
+Icon[type="CommandPrompt"]::before{
+    content: '\e756'
+}
+
+Icon[type="Community"]::before{
+    content: '\e909'
+}
+
+Icon[type="DevTools"]::before{
+    content: '\ec7a'
+}
+
+Icon[type="GameConsole"]::before{
+    content: '\e967'
+}
+
+Icon[type="Library"]::before{
+    content: '\e8f1'
+}
+
+Icon[type="MusicNote"]::before{
+    content: '\ec4f'
+}
+
+Icon[type="Profile"]::before{
+    content: '\e77b'
+}
+
+Icon[type="Search"]::before{
+    content: '\e721'
+}
+
+Icon[type="Settings"]::before{
+    content: '\e713'
+}
+
+Icon[type="Store"]::before{
+    content: '\e719'
+}
+
+Icon[type="XboxOne"]::before{
+    content: '\e990'
+}

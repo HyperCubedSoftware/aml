@@ -1,0 +1,122 @@
+Nav{
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	background: #1f1f1f;
+}
+
+NavPadding{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+
+NavItem{
+	padding: 12px 0 12px 0;
+    height: 24px;
+    width: 100%;
+	display: block;
+    vertical-align: middle;
+    transition: 0.3s;
+	cursor: pointer;
+}
+
+NavItem:hover{
+	background: rgba(255, 255, 255, 0.1);
+    text-shadow: 0 0 5px #fff;
+}
+
+NavItem Text{
+    height: 24px;
+	overflow: hidden;
+	display: inline-flex;
+    vertical-align: top;
+}
+
+Icon[nav="true"]{
+    height: 24px;
+    display: inline-flex;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+Icon[nav="true"]::before{
+	padding: 0 24px;
+}
+
+NavTop{
+	width: 100%;
+	display: block;
+}
+
+NavBottom{
+    width: 250px;
+	position: fixed;
+	bottom: 0;
+}
+
+Content{
+	width: calc(100% - 250px);
+	height: calc(100% - 32px);
+	position: fixed;
+	top: 32px;
+	left: 250px;
+}
+
+Titlebar{
+	width: 100%;
+	height: 32px;
+	position: fixed;
+	display: block;
+	background: #1f1f1f;
+}
+
+TitlebarTitle{
+    width: auto;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 0;
+    margin-left: 250px;
+    text-indent: 14px;
+}
+
+TitlebarButton{
+	float: right;
+    display: inline-block;
+    width: 48px;
+    height: 32px;
+    font-family: 'Segoe MDL2 Assets';
+    text-align: center;
+}
+
+TitlebarButton:hover{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+TitlebarButton *{
+    display: block;
+    padding: 10px 0;
+    font-size: 10px;
+}
+
+Text{
+    display: inline;
+}
+
+Text[italic="true"]{
+    font-style: italic;
+}
+
+Text[bold="true"]{
+    font-style: oblique
+}
+
+Icon{
+    font-family: 'Segoe MDL2 Assets';
+    /*transition: text-shadow 0.3s;*/
+}
+
+window{
+	font-family: 'Segoe UI','Helvetica Neue',sans-serif;
+	color: white;
+}
